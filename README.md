@@ -24,6 +24,7 @@ In the task of VQA in remote sensing (RS), the user asks a question to a system 
 The system then answers the question in natural language by _jointly_ processing the text and image modalities.
 
 ![vqa-example](./assets/vqa_example.png)
+![vqa-example](./assets/VQA-basic.gif)
 
 ### Multi-Modal Fusion Transformer for Visual Question Answering in Remote Sensing
 
