@@ -1,4 +1,12 @@
-# [AI Cube Project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406) 
+# [Contributions of the TU Berlin to the AI Cube Project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406) 
+
+<div align="center">
+<a href="https://www.tu.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/tu-berlin-logo-long-red.svg" style="font-size: 1rem; height: 5em; width: auto" alt="TU Berlin Logo"/>
+<img height="5em" hspace="17em"/>
+<a href="https://rsim.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/RSiM_Logo_1.png" style="font-size: 1rem; height: 5em; width: auto" alt="RSiM Logo"/>
+</div>
+
+![](assets/ai-cube-logo.png)
 
 Data cubes offer a natural, analysis-oriented view of spatiotemporal data that also scales very well.
 Artificial intelligence (AI), on the other hand, improves the understanding of earth observation (EO) data with new methods.
@@ -7,10 +15,9 @@ Interestingly, both techniques are based on the same mathematical foundations, n
 The AI-Cube project explored how data cubes and AI-based analytics
 can be advantageously combined. The project team consisted of a
 partnership of [Constructor (formerly Jacobs) University](https://constructor.university/)
-(project management), the [Remote Sensing Image Analysis Group of the TU Berlin](https://rsim.berlin/)
+(project management), the [Remote Sensing Image Analysis (RSiM) Group of the TU Berlin](https://rsim.berlin/)
 and the [rasdaman GmbH](https://www.rasdaman.com/).
-
-## TU Berlin
+This repository summarizes the development of the TU Berlin within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
 
 The team from the TU Berlin has investigated deep learning (DL)-based visual-question-answer (VQA) systems.
 In the task of VQA in remote sensing (RS), the user asks a question to a system in natural language concerning the content of RS images.
