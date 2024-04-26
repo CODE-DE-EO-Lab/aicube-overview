@@ -12,9 +12,8 @@ Data cubes offer a natural, analysis-oriented view of spatiotemporal data that a
 Artificial intelligence (AI), on the other hand, improves the understanding of earth observation (EO) data with new methods.
 Interestingly, both techniques are based on the same mathematical foundations, namely tensor algebra.
 
-The AI-Cube project explored how data cubes and AI-based analytics
-can be advantageously combined. The project team consisted of a
-partnership of [Constructor (formerly Jacobs) University](https://constructor.university/)
+The AI-Cube project explored how data cubes and AI-based analytics can be advantageously combined. 
+The project team consisted of a partnership of [Constructor (formerly Jacobs) University](https://constructor.university/)
 (project management), the [Remote Sensing Image Analysis (RSiM) Group of the TU Berlin](https://rsim.berlin/)
 and the [rasdaman GmbH](https://www.rasdaman.com/).
 This repository summarizes the development of the TU Berlin within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
@@ -25,10 +24,12 @@ The system then answers the question in natural language by _jointly_ processing
 
 <!--- ![vqa-example](./assets/vqa_example.png) --->
 ![vqa-example](./assets/VQA-basic.gif)
+<p align="center">Overview of how VQA systems work</p>
 
 ### Multi-Modal Fusion Transformer for Visual Question Answering in Remote Sensing
 
-Their first published architecture [VBFusion](https://arxiv.org/abs/2210.04510), was presented at [SPIE Image and Signal Processing for Remote Sensing in 2022](https://spie.org/spie-sensors-imaging/presentation/Multi-modal-fusion-transformer-for-visual-question-answering-in-remote/12267-21#_=_).
+Their first published architecture [VBFusion](https://arxiv.org/abs/2210.04510), was presented at 
+[SPIE Image and Signal Processing for Remote Sensing in 2022](https://spie.org/spie-sensors-imaging/presentation/Multi-modal-fusion-transformer-for-visual-question-answering-in-remote/12267-21#_=_).
 It achieved state-of-the-art performance in the largest remote sensing (RS) VQA dataset of the time.
 The code to train and evaluate the architecture is publicly available under:
 [https://git.tu-berlin.de/rsim/multi-modal-fusion-transformer-for-vqa-in-rs](https://git.tu-berlin.de/rsim/multi-modal-fusion-transformer-for-vqa-in-rs)
@@ -37,7 +38,7 @@ The code to train and evaluate the architecture is publicly available under:
 <p align="center">Architectural overview of VBFusion</p>
 
 One downside of the introduced VBFusion architecture is the long training time and expensive computing requirements due to the architecture's size and complexity.
-As a result, the architecture is unsuitable for operational applications in the RS domain.
+As a result, although the architecture provides good VQA accuracies, it is unsuitable for operational applications in the RS domain due to the high computational cost.
 
 ### LIT-4-RSVQA: Lightweight Transformer-Based Visual Question Answering in Remote Sensing
 
@@ -48,8 +49,8 @@ with the code publicly available under: [https://git.tu-berlin.de/rsim/lit4rsvqa
 ![lit4rsvqa-overview](./assets/lit4rsvqa.png)
 <p align="center">Illustration of the LiT-4-RSVQA architecture</p>
 
-Compared to the previous VBFusion architecture, the smallest model of the LiT-4-RSVQA architecture had over 35x fewer parameters, resulting
-in significantly fewer parameters and, therefore, lower computational requirements while still improving the overall performance.
+Compared to the previous VBFusion architecture, the smallest model of the LiT-4-RSVQA architecture had over 35x fewer parameters, therefore resulting
+in lower computational requirements while still improving the overall performance.
 For further details, the reader is referred to the [research paper](https://arxiv.org/pdf/2306.00758.pdf).
 
 ### ConfigILM: A general purpose configurable library for combining image and language models for visual question answering
@@ -83,7 +84,8 @@ modalities by synchronizing the special class tokens after each transformer enco
 
 Experimental results show the effectiveness of the proposed architecture over single-modality architectures and an early fusion multi-modal
 architecture when evaluated on the [BigEarthNet](https://bigearth.net/) MLC dataset.
-The code for the proposed architecture is publicly available under: [https://git.tu-berlin.de/rsim/sct-fusion](https://git.tu-berlin.de/rsim/sct-fusion)
+The paper was presented at the [IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2023](https://ieeexplore.ieee.org/document/10281927) and 
+the code for the proposed architecture is publicly available under: [https://git.tu-berlin.de/rsim/sct-fusion](https://git.tu-berlin.de/rsim/sct-fusion)
 
 ### Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing
 
@@ -97,5 +99,6 @@ Concretely, by adapting [masked autoencoders (MAEs)](https://arxiv.org/abs/2111.
 To this end, the [research paper](https://arxiv.org/abs/2401.07782) provides a systematic overview of the possible adaptations of the vanilla MAE to exploit masked image modelling on
 multi-sensor RS image archives (denoted as cross-sensor masked autoencoders (CSMAEs)). 
 Several different CSMAE models are introduced by applying different adjustments to the vanilla MAE.
-The code is available under [https://github.com/jakhac/CSMAE](https://github.com/jakhac/CSMAE)
+The code is available under [https://github.com/jakhac/CSMAE](https://github.com/jakhac/CSMAE). 
+The publication is currently under review at [Transactions on Geoscience and Remote Sensing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36).
 
