@@ -18,7 +18,7 @@ The AI-Cube project explored how data cubes and AI-based analytics can be advant
 The project team consisted of a partnership of [Constructor (formerly Jacobs) University](https://constructor.university/)
 (project management), the [Remote Sensing Image Analysis (RSiM) Group of TU Berlin](https://rsim.berlin/)
 and the [rasdaman GmbH](https://www.rasdaman.com/).
-This repository summarizes the development of the RSiM within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
+This repository summarizes the development of the RSiM Group within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
 We thank [EOLab](https://eo-lab.org/de/) for providing infrastructure to facilitate model training for works in this project.
 
 The RSiM Group has investigated deep learning (DL)-based visual-question-answer (VQA) systems.
