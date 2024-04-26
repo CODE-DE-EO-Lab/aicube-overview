@@ -16,9 +16,9 @@ The AI-Cube project explored how data cubes and AI-based analytics can be advant
 The project team consisted of a partnership of [Constructor (formerly Jacobs) University](https://constructor.university/)
 (project management), the [Remote Sensing Image Analysis (RSiM) Group of the TU Berlin](https://rsim.berlin/)
 and the [rasdaman GmbH](https://www.rasdaman.com/).
-This repository summarizes the development of the TU Berlin within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
+This repository summarizes the development of the RSiM within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
 
-The team from the Remote Sensing Image Analysis Group (RSiM) of TU Berlin has investigated deep learning (DL)-based visual-question-answer (VQA) systems.
+The RSiM Group has investigated deep learning (DL)-based visual-question-answer (VQA) systems.
 In the task of VQA in remote sensing (RS), the user asks a question to a system in natural language concerning the content of RS images.
 The system then answers the question in natural language by _jointly_ processing the text and image modalities.
 
@@ -55,7 +55,7 @@ For further details, the reader is referred to the [research paper](https://arxi
 
 ### ConfigILM: A general purpose configurable library for combining image and language models for visual question answering
 
-To make research in the VQA in the RS field more accessible, the TU Berlin has developed the [ConfigILM](https://github.com/lhackel-tub/ConfigILM) library.
+To make research in the VQA in the RS field more accessible, the RSiM Group has developed the [ConfigILM](https://github.com/lhackel-tub/ConfigILM) library.
 This _open-source_ library provides a convenient implementation for seamlessly combining models
 from two of the most popular [`pytorch`](https://pytorch.org/) libraries,
 the highly regarded [`timm`](https://github.com/rwightman/pytorch-image-models) and [`huggingface`🤗](https://huggingface.co/) libraries.
@@ -73,7 +73,7 @@ The library was accepted at the [SoftwareX journal in May 2024](https://www.scie
 
 ### Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification
 
-As part of the AI-Cube project, the TU Berlin has also investigated different multi-modality applications.
+As part of the AI-Cube project, the RSiM Group has also investigated different multi-modality applications.
 In the work [Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification](https://arxiv.org/abs/2306.01523), a novel
 _Synchronized Class Token Fusion_ (SCT Fusion) architecture is introduced in the framework of multi-modal, multi label classification (MLC) of remote sensing
 (RS) images. The proposed architecture leverages modality-specific attention-based transformer encoders to process varying input modalities while exchanging information across
@@ -89,7 +89,7 @@ the code for the proposed architecture is publicly available under: [https://git
 
 ### Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing
 
-Apart from multi-modal multi label classification, the TU Berlin has also investigated novel strategies to retrieve
+Apart from multi-modal multi label classification, the RSiM Group has also investigated novel strategies to retrieve
 RS images across _different_ image modalities based on their content in a self-supervised manner.
 Concretely, by adapting [masked autoencoders (MAEs)](https://arxiv.org/abs/2111.06377).
 
