@@ -18,7 +18,7 @@ The project team consisted of a partnership of [Constructor (formerly Jacobs) Un
 and the [rasdaman GmbH](https://www.rasdaman.com/).
 This repository summarizes the development of the TU Berlin within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
 
-The team from the Remote Sensing Image Analysis Group of TU Berlin has investigated deep learning (DL)-based visual-question-answer (VQA) systems.
+The team from the Remote Sensing Image Analysis Group (RSiM) of TU Berlin has investigated deep learning (DL)-based visual-question-answer (VQA) systems.
 In the task of VQA in remote sensing (RS), the user asks a question to a system in natural language concerning the content of RS images.
 The system then answers the question in natural language by _jointly_ processing the text and image modalities.
 
