@@ -4,9 +4,9 @@
 <a href="https://www.tu.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/tu-berlin-logo-long-red.svg" style="font-size: 1rem; height: 5em; width: auto" alt="TU Berlin Logo"/>
 <img height="5em" hspace="17em"/>
 <a href="https://rsim.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/RSiM_Logo_1.png" style="font-size: 1rem; height: 5em; width: auto" alt="RSiM Logo"/>
+<img height="5em" hspace="17em"/>
+<a href="https://eo-lab.org/de/projects/?id=12443968-ab8d-439b-8794-57d25b260406"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/ai-cube-logo.png" style="font-size: 1rem; height: 2em; width: auto" alt="AI-Cube Logo"/>
 </div>
-
-![](assets/ai-cube-logo.png)
 
 Data cubes offer a natural, analysis-oriented view of spatiotemporal data that also scales very well.
 Artificial intelligence (AI), on the other hand, improves the understanding of earth observation (EO) data with new methods.
