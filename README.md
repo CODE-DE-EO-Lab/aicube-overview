@@ -1,4 +1,4 @@
-# [Contributions of the TU Berlin to the AI Cube Project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406) 
+# [Contributions of the Remote Sensing Image Analysis (RSiM) Group of TU Berlin to the AI Cube Project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406) 
 
 <div align="center">
 <a href="https://www.tu.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/tu-berlin-logo-long-red.svg" style="font-size: 1rem; height: 5em; width: auto" alt="TU Berlin Logo"/>
@@ -14,7 +14,7 @@ Interestingly, both techniques are based on the same mathematical foundations, n
 
 The AI-Cube project explored how data cubes and AI-based analytics can be advantageously combined. 
 The project team consisted of a partnership of [Constructor (formerly Jacobs) University](https://constructor.university/)
-(project management), the [Remote Sensing Image Analysis (RSiM) Group of the TU Berlin](https://rsim.berlin/)
+(project management), the [Remote Sensing Image Analysis (RSiM) Group of TU Berlin](https://rsim.berlin/)
 and the [rasdaman GmbH](https://www.rasdaman.com/).
 This repository summarizes the development of the RSiM within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
 
