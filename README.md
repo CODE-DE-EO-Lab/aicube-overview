@@ -1,13 +1,13 @@
 # [Contributions of the Remote Sensing Image Analysis (RSiM) Group of TU Berlin to the AI Cube Project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406) 
 
 <div align="center">
-<a href="https://rsim.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/RSiM_Logo_1.png" style="font-size: 1rem; height: 5em; width: auto" alt="RSiM Logo"/>
-<img height="5em" hspace="17em"/>
-<a href="https://www.tu.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/tu-berlin-logo-long-red.svg" style="font-size: 1rem; height: 5em; width: auto" alt="TU Berlin Logo"/>
-<img height="5em" hspace="34em"/>
-<a href="https://eo-lab.org/de/projects/?id=12443968-ab8d-439b-8794-57d25b260406"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/ai-cube-logo.png" style="font-size: 1rem; height: 5em; width: auto" alt="AI-Cube Logo"/>
-<img height="5em" hspace="34em"/>
-<a href="https://eo-lab.org/de/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/eolab_Logo.png" style="font-size: 1rem; height: 5em; width: auto" alt="EOLab Logo"/>
+<a href="https://rsim.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/RSiM_Logo_1.png" style="font-size: 1rem; height: 4em; width: auto" alt="RSiM Logo"/>
+<img height="4em" hspace="17em"/>
+<a href="https://www.tu.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/tu-berlin-logo-long-red.svg" style="font-size: 1rem; height: 4em; width: auto" alt="TU Berlin Logo"/>
+<img height="4em" hspace="34em"/>
+<a href="https://eo-lab.org/de/projects/?id=12443968-ab8d-439b-8794-57d25b260406"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/ai-cube-logo.png" style="font-size: 1rem; height: 4em; width: auto" alt="AI-Cube Logo"/>
+<img height="4em" hspace="34em"/>
+<a href="https://eo-lab.org/de/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/eolab_Logo.png" style="font-size: 1rem; height: 4em; width: auto" alt="EOLab Logo"/>
 </div>
 
 Data cubes offer a natural, analysis-oriented view of spatiotemporal data that also scales very well.
