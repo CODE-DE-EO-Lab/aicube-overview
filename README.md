@@ -1,9 +1,5 @@
 # Added Value from Big Earth Observation Data by Combining AI and Federated Data Cubes
 
-<style>
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
-</style>
-
 <div align="center">
 <a href="./assets/ai-cube-logo.png"><img src="./assets/ai-cube-logo.png" style="font-size: 1rem; height: 6em; width: auto; padding-right: 30px;" /></a>
 <a href="./assets/BMWK.svg"><img src="./assets/BMWK.svg" style="font-size: 1rem; height: 6em; width: auto; padding-right: 30px;"/></a>
@@ -32,11 +28,11 @@ The AI-Cube project has produced several research papers and a prototype that ha
 
 | Product | Links |
 |-------|-------------|
-| <img src="./assets/configilm.png" width="200px">  | <i class="fab fa-github"></i> [ConfigILM: A General Purpose Configurable Library for Combining Image and Language Models for Visual Question Answering](https://github.com/lhackel-tub/ConfigILM)  |
-| <img src="./assets/lit4rsvqa.png" width="200px"> | <i class="fab fa-gitlab"></i> [LIT-4-RSVQA Architecture: Lightweight Transformer-Based Visual Question Answering in Remote Sensing](https://git.tu-berlin.de/rsim/lit4rsvqa)  |
-| <img src="./assets/vbfusion.png" width="200px"> | <i class="fab fa-gitlab"></i> [VBFusion Architecture: Multi-Modal Fusion Transformer for Visual Question Answering in Remote Sensing](https://git.tu-berlin.de//multi-modal-fusion-transformer-for-vqa-in-rs) |
-| <img src="./assets/sct_fusion.png" width="200px"> | <i class="fab fa-github"></i> [SCT Fusion Architecture: Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification](https://git.tu-berlin.de/rsim/sct-fusion) |
-| <img src="./assets/configilm.png" width="200px"> | <i class="fab fa-github"></i> [CM-MAE Architecture: Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing](https://github.com/jakhac/CSMAE) |
+| <img src="./assets/configilm.png" width="200px">  | [ConfigILM: A General Purpose Configurable Library for Combining Image and Language Models for Visual Question Answering](https://github.com/lhackel-tub/ConfigILM)  |
+| <img src="./assets/lit4rsvqa.png" width="200px"> | [LIT-4-RSVQA Architecture: Lightweight Transformer-Based Visual Question Answering in Remote Sensing](https://git.tu-berlin.de/rsim/lit4rsvqa)  |
+| <img src="./assets/vbfusion.png" width="200px"> |  [VBFusion Architecture: Multi-Modal Fusion Transformer for Visual Question Answering in Remote Sensing](https://git.tu-berlin.de//multi-modal-fusion-transformer-for-vqa-in-rs) |
+| <img src="./assets/sct_fusion.png" width="200px"> | [SCT Fusion Architecture: Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification](https://git.tu-berlin.de/rsim/sct-fusion) |
+| <img src="./assets/configilm.png" width="200px"> | [CM-MAE Architecture: Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing](https://github.com/jakhac/CSMAE) |
 | <img src="./assets/AI-Cube-Demo.png" width="200px"> | [AI-Cube Demo](https://aicube.rasdaman.com/rasdaman-dashboard/) |
 
 
