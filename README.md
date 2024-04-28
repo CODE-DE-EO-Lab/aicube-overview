@@ -1,108 +1,42 @@
-# [Contributions of the Remote Sensing Image Analysis (RSiM) Group of TU Berlin to the AI Cube Project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406) 
+# Added Value from Big Earth Observation Data by Combining AI and Federated Data Cubes
+
+<style>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+</style>
 
 <div align="center">
-<a href="https://bifold.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/BIFOLD_Logo_farbig.png" style="font-size: 1rem; height: 3em; width: auto" alt="BIFOLD Logo"/><img height="3em" hspace="17em"/>
-<a href="https://www.tu.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/tu-berlin-logo-long-red.svg" style="font-size: 1rem; height: 3em; width: auto" alt="TU Berlin Logo"/>
-<img height="3em" hspace="17em"/>
-<a href="https://rsim.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/RSiM_Logo_1.png" style="font-size: 1rem; height: 3em; width: auto" alt="RSiM Logo"/>
-<img height="3em" hspace="24em"/>
-<a href="https://eo-lab.org/de/projects/?id=12443968-ab8d-439b-8794-57d25b260406"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/ai-cube-logo.png" style="font-size: 1rem; height: 3em; width: auto" alt="AI-Cube Logo"/>
-<img height="3em" hspace="24em"/>
-<a href="https://eo-lab.org/de/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/eolab_Logo.png" style="font-size: 1rem; height: 3em; width: auto" alt="EOLab Logo"/>
+<a href="./assets/ai-cube-logo.png"><img src="./assets/ai-cube-logo.png" style="font-size: 1rem; height: 6em; width: auto; padding-right: 30px;" /></a>
+<a href="./assets/BMWK.svg"><img src="./assets/BMWK.svg" style="font-size: 1rem; height: 6em; width: auto; padding-right: 30px;"/></a>
+<a href="https://eo-lab.org/de/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/eolab_Logo.png" style="font-size: 1rem; height: 6em; width: auto" alt="EOLab Logo"/> </a>
+</div>
+<div align="center" style="padding: 20px 0px;">
+<a href="https://constructor.university/"><img src="./assets/CU.png" style="font-size: 1rem; height: 3em; width: auto; padding-right: 30px;" /></a>
+<a href="https://www.tu.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/tu-berlin-logo-long-red.svg" style="font-size: 1rem; height: 3em; width: auto; padding-right: 30px;" alt="TU Berlin Logo"/></a>
+<a href="https://bifold.berlin/"><img src="https://raw.githubusercontent.com/wiki/lhackel-tub/ConfigILM/static/imgs/BIFOLD_Logo_farbig.png" style="font-size: 1rem; height: 3em; width: auto; padding-right: 30px;" alt="BIFOLD Logo"/></a>
+<a href=""><img src="./assets/logo_rasdaman.png" style="font-size: 1rem; height: 4em; width: auto" alt="Rasdaman Logo"/></a>
 </div>
 
-Data cubes offer a natural, analysis-oriented view of spatiotemporal data that also scales very well.
-Artificial intelligence (AI), on the other hand, improves the understanding of earth observation (EO) data with new methods.
-Interestingly, both techniques are based on the same mathematical foundations, namely tensor algebra.
+This repository lists the achievements of [the AI-Cube project](https://ai-cu.be/) funded by the German Federal Ministry of Economic Affairs and Climate Action ([BMWK](https://bmwk.de)) for the period 2021-2023. The project partners were [Constructor (formerly Jacobs) University](https://constructor.university/), [rasdaman GmbH](https://www.rasdaman.com/), and Remote Sensing Image Analysis ([RSiM](https://rsim.berlin)) Group of [TU Berlin](https://tu.berlin) & [BIFOLD](https://bifold.berlin). The partners are thankful to [EO-Lab](https://eo-lab.org/de/) for providing infrastructure to facilitate model training for works in this project.
 
-The AI-Cube project explored how data cubes and AI-based analytics can be advantageously combined. 
-The project team consisted of a partnership of [Constructor (formerly Jacobs) University](https://constructor.university/)
-(project management), the [Remote Sensing Image Analysis (RSiM) Group of TU Berlin](https://rsim.berlin/)
-and the [rasdaman GmbH](https://www.rasdaman.com/).
-This repository summarizes the development of the [RSiM Group](https://rsim.berlin/) within the scope of the [AI Cube project](https://eo-lab.org/en/projects/?id=12443968-ab8d-439b-8794-57d25b260406).
-We thank [EOLab](https://eo-lab.org/de/) for providing infrastructure to facilitate model training for works in this project.
+[The AI-Cube project](https://ai-cu.be/) explored how data cubes and AI-based analytics can be advantageously combined. A particular attention was given in the development of a deep learning (DL)-based visual-question-answer (VQA) system, where the user asks a question to a system in natural language concerning the content of RS images. Then, the system answers the question in natural language by jointly processing the text and image modalities.
 
-The [RSiM Group](https://rsim.berlin/) has investigated deep learning (DL)-based visual-question-answer (VQA) systems.
-In the task of VQA in remote sensing (RS), the user asks a question to a system in natural language concerning the content of RS images.
-The system then answers the question in natural language by _jointly_ processing the text and image modalities.
+<p align="center">
+  <img src="./assets/VQA-basic.gif" alt="vqa-example" width="600"/>
+</p>
+<p align="center">Overview of how a VQA system works</p>
 
-<!--- ![vqa-example](./assets/vqa_example.png) --->
-![vqa-example](./assets/VQA-basic.gif)
-<p align="center">Overview of how VQA systems work</p>
 
-### Multi-Modal Fusion Transformer for Visual Question Answering in Remote Sensing
+## Achievements
 
-Their first published architecture [VBFusion](https://arxiv.org/abs/2210.04510), was presented at 
-[SPIE Image and Signal Processing for Remote Sensing in 2022](https://spie.org/spie-sensors-imaging/presentation/Multi-modal-fusion-transformer-for-visual-question-answering-in-remote/12267-21#_=_).
-It achieved state-of-the-art performance in the largest remote sensing (RS) VQA dataset of the time.
-The code to train and evaluate the architecture is publicly available under:
-[https://git.tu-berlin.de//multi-modal-fusion-transformer-for-vqa-in-rs](https://git.tu-berlin.de//multi-modal-fusion-transformer-for-vqa-in-rs)
+The AI-Cube project has produced several research papers and a prototype that have been presented at various international conferences and journals. The following list provides an overview of the achievements:
 
-![vbfusion](./assets/vbfusion.png)
-<p align="center">Architectural overview of VBFusion</p>
+| Product | Links |
+|-------|-------------|
+| <img src="./assets/configilm.png" width="200px">  | <i class="fab fa-github"></i> [ConfigILM: A General Purpose Configurable Library for Combining Image and Language Models for Visual Question Answering](https://github.com/lhackel-tub/ConfigILM)  |
+| <img src="./assets/lit4rsvqa.png" width="200px"> | <i class="fab fa-gitlab"></i> [LIT-4-RSVQA Architecture: Lightweight Transformer-Based Visual Question Answering in Remote Sensing](https://git.tu-berlin.de/rsim/lit4rsvqa)  |
+| <img src="./assets/vbfusion.png" width="200px"> | <i class="fab fa-gitlab"></i> [VBFusion Architecture: Multi-Modal Fusion Transformer for Visual Question Answering in Remote Sensing](https://git.tu-berlin.de//multi-modal-fusion-transformer-for-vqa-in-rs) |
+| <img src="./assets/sct_fusion.png" width="200px"> | <i class="fab fa-github"></i> [SCT Fusion Architecture: Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification](https://git.tu-berlin.de/rsim/sct-fusion) |
+| <img src="./assets/configilm.png" width="200px"> | <i class="fab fa-github"></i> [CM-MAE Architecture: Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing](https://github.com/jakhac/CSMAE) |
+| <img src="./assets/AI-Cube-Demo.png" width="200px"> | [AI-Cube Demo](https://aicube.rasdaman.com/rasdaman-dashboard/) |
 
-One downside of the introduced VBFusion architecture is the long training time and expensive computing requirements due to the architecture's size and complexity.
-As a result, although the architecture provides good VQA accuracies, it is unsuitable for operational applications in the RS domain due to the high computational cost.
-
-### LIT-4-RSVQA: Lightweight Transformer-Based Visual Question Answering in Remote Sensing
-
-To overcome the shortcoming, the next work introduced lightweight transformer-based architectures for VQA in RS [LiT-4-RSVQA](https://arxiv.org/abs/2306.00758).
-The paper was presented at the [IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2023](https://ieeexplore.ieee.org/document/10281674)
-with the code publicly available under: [https://git.tu-berlin.de/rsim/lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa).
-
-![lit4rsvqa-overview](./assets/lit4rsvqa.png)
-<p align="center">Illustration of the LiT-4-RSVQA architecture</p>
-
-Compared to the previous VBFusion architecture, the smallest model of the LiT-4-RSVQA architecture had over 35x fewer parameters, therefore resulting
-in lower computational requirements while still improving the overall performance.
-For further details, the reader is referred to the [research paper](https://arxiv.org/pdf/2306.00758.pdf).
-
-### ConfigILM: A general purpose configurable library for combining image and language models for visual question answering
-
-To make research in the VQA in the RS field more accessible, the [RSiM Group](https://rsim.berlin/) has developed the [ConfigILM](https://github.com/lhackel-tub/ConfigILM) library.
-This _open-source_ library provides a convenient implementation for seamlessly combining models
-from two of the most popular [`pytorch`](https://pytorch.org/) libraries,
-the highly regarded [`timm`](https://github.com/rwightman/pytorch-image-models) and [`huggingface`🤗](https://huggingface.co/) libraries.
-With an extensive collection of nearly _1000 image_ and _over 100 language models_,
-with an _additional 120,000_ community-uploaded models in the [`huggingface`🤗 model collection](https://huggingface.co/models),
-`ConfigILM` offers a diverse range of model combinations that require minimal implementation effort.
-Its vast array of models makes it an unparalleled resource for developers seeking to create
-innovative and sophisticated _image-language models_ with ease.
-
-![configilm-overview](./assets/configilm.png)
-<p align="center">Illustration of the ConfigILM architecture</p>
-
-The code and the extensive documentation about its use are available at: [https://github.com/lhackel-tub/ConfigILM](https://github.com/lhackel-tub/ConfigILM).
-The library was accepted at the [SoftwareX journal in May 2024](https://www.sciencedirect.com/science/article/pii/S235271102400102X).
-
-### Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification
-
-As part of the AI-Cube project, the [RSiM Group](https://rsim.berlin/) has also investigated different multi-modality applications.
-In the work [Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification](https://arxiv.org/abs/2306.01523), a novel
-_Synchronized Class Token Fusion_ (SCT Fusion) architecture is introduced in the framework of multi-modal, multi label classification (MLC) of remote sensing
-(RS) images. The proposed architecture leverages modality-specific attention-based transformer encoders to process varying input modalities while exchanging information across
-modalities by synchronizing the special class tokens after each transformer encoder block.
-
-![sct-fusion-overview](./assets/sct_fusion.png)
-<p align="center">Architectural overview of SCT Fusion</p>
-
-Experimental results show the effectiveness of the proposed architecture over single-modality architectures and an early fusion multi-modal
-architecture when evaluated on the [BigEarthNet](https://bigearth.net/) MLC dataset.
-The paper was presented at the [IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2023](https://ieeexplore.ieee.org/document/10281927) and 
-the code for the proposed architecture is publicly available under: [https://git.tu-berlin.de/rsim/sct-fusion](https://git.tu-berlin.de/rsim/sct-fusion)
-
-### Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing
-
-Apart from multi-modal multi label classification, the [RSiM Group](https://rsim.berlin/) has also investigated novel strategies to retrieve
-RS images across _different_ image modalities based on their content in a self-supervised manner.
-Concretely, by adapting [masked autoencoders (MAEs)](https://arxiv.org/abs/2111.06377).
-
-![csmae-overview](./assets/csmae.png)
-<p align="center">Overview of the CSMAE architecture</p>
-
-To this end, the [research paper](https://arxiv.org/abs/2401.07782) provides a systematic overview of the possible adaptations of the vanilla MAE to exploit masked image modelling on
-multi-sensor RS image archives (denoted as cross-sensor masked autoencoders (CSMAEs)). 
-Several different CSMAE models are introduced by applying different adjustments to the vanilla MAE.
-The code is available under [https://github.com/jakhac/CSMAE](https://github.com/jakhac/CSMAE). 
-The publication is currently under review at [Transactions on Geoscience and Remote Sensing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36).
 
