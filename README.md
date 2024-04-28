@@ -19,7 +19,7 @@
 </div>
 &ensp;
 
-This repository lists the achievements of [the AI-Cube project](https://ai-cu.be/) funded by the German Federal Ministry of Economic Affairs and Climate Action ([BMWK](https://bmwk.de)) for the period 2021-2023. The project partners were [Constructor (formerly Jacobs) University](https://constructor.university/), [rasdaman GmbH](https://www.rasdaman.com/), and Remote Sensing Image Analysis ([RSiM](https://rsim.berlin)) Group of [TU Berlin](https://tu.berlin) & [BIFOLD](https://bifold.berlin). The partners are thankful to [EO-Lab](https://eo-lab.org/de/) for providing infrastructure to facilitate model training for works in this project.
+This repository lists the achievements of [the AI-Cube project](https://ai-cu.be/) funded by the German Federal Ministry of Economic Affairs and Climate Action ([BMWK](https://bmwk.de)) for the period 2021-2023. The project partners were [Constructor (formerly Jacobs) University](https://constructor.university/), [rasdaman GmbH](https://www.rasdaman.com/), and Remote Sensing Image Analysis ([RSiM](https://rsim.berlin)) Group of [TU Berlin](https://tu.berlin) & [BIFOLD](https://bifold.berlin). 
 
 [The AI-Cube project](https://ai-cu.be/) explored how data cubes and AI-based analytics can be advantageously combined. A particular attention was given in the development of a deep learning (DL)-based visual-question-answer (VQA) system, where the user asks a question to a system in natural language concerning the content of RS images. Then, the system answers the question in natural language by jointly processing the text and image modalities.
 
@@ -31,9 +31,9 @@ This repository lists the achievements of [the AI-Cube project](https://ai-cu.be
 
 ## Achievements
 
-The AI-Cube project has produced several research papers and a prototype that have been presented at various international conferences and journals. The following list provides an overview of the achievements:
+The AI-Cube project has produced several research papers and a prototype that have been presented at various international conferences and journals. The following list provides an overview of the achievements.
 
-| Product | Links |
+| Products | Links |
 |-------|-------------|
 | <img src="./assets/configilm.png" width="200px">  | 🔗 [ConfigILM: A General Purpose Configurable Library for Combining Image and Language Models for Visual Question Answering](https://github.com/lhackel-tub/ConfigILM)  |
 | <img src="./assets/lit4rsvqa.png" width="200px"> | 🔗 [LIT-4-RSVQA Architecture: Lightweight Transformer-Based Visual Question Answering in Remote Sensing](https://git.tu-berlin.de/rsim/lit4rsvqa)  |
@@ -43,3 +43,6 @@ The AI-Cube project has produced several research papers and a prototype that ha
 | <img src="./assets/AI-Cube-Demo.png" width="200px"> | 🚀 [AI-Cube Demo](https://aicube.rasdaman.com/rasdaman-dashboard/) |
 
 
+## Acknowledgement
+
+The partners are thankful to [EO-Lab](https://eo-lab.org/de/) for providing infrastructure to facilitate deep learning model training during this project.
