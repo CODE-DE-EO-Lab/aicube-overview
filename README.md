@@ -26,7 +26,7 @@ This repository lists the achievements of [the AI-Cube project](https://ai-cu.be
 <p align="center">
   <img src="./assets/VQA-basic.gif" alt="vqa-example" width="600"/>
 </p>
-<p align="center" style="font-size: 1rem;">Illustraction of a VQA system</p>
+<p align="center" style="font-size: 1rem;">Illustration of a VQA system</p>
 
 ## Achievements
 
